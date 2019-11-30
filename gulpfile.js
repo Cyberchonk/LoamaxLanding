@@ -8,9 +8,9 @@ const browsersync = require('browser-sync').create();
 const cached = require('gulp-cached');
 const cleancss = require('gulp-clean-css');
 const del = require('del');
-const deploy = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
 const fileinclude = require('gulp-file-include');
-const gulp = require('gulp');
+var gulp = require('gulp');
 const gulpif = require('gulp-if');
 const npmdist = require('gulp-npm-dist');
 const replace = require('gulp-replace');
@@ -178,3 +178,8 @@ gulp.task('html', function() {
 gulp.task('build', gulp.series(gulp.parallel('clean:tmp', 'clean:dist', 'copy:all', 'copy:libs'), 'scss', 'html'));
 
 gulp.task('default', gulp.series(gulp.parallel('fileinclude', 'scss'), gulp.parallel('browsersync', 'watch')));
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
