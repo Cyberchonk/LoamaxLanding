@@ -10320,7 +10320,7 @@ a.text-white:hover, a.text-white:focus {
   overflow-wrap: break-word !important; }
 
 .text-reset {
-  color: inherit !important; }
+  color: inherit; }
 
 .visible {
   visibility: visible !important; }
@@ -12937,7 +12937,7 @@ body.compensate-for-scrollbar {
   .flickity-button::before, .flickity-button::after {
     font-family: "Feather"; }
   .flickity-button:hover, .flickity-button:focus {
-    background-color: #335EEA;
+    background-color: #66a3ff;
     box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1); }
 
 .flickity-button.previous {
