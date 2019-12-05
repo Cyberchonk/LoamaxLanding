@@ -10,6 +10,47 @@
  * Shawn Chen
  */
 
+ @media (max-width: 1000px) {
+.text-primary {
+    color: black !important;
+  }
+
+#Features-2{
+  margin-top: -65px !important;
+}
+
+#footer-logo{
+  align-self: right; 
+  margin-top: 24px;
+  margin-left: 29%;
+}
+
+#office-image{
+  margin-top: 32px;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", Sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #161C2D;
+  text-align: center !important;
+  background-color: #FFFFFF; }
+
+.navbar-brand-img {
+    max-height: 10rem;
+    max-width: 140%; }
+ 
+.col-6 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%; 
+    left: 25%}
+
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -400,7 +441,7 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 120%;
+  max-width: 100%;
   height: auto; }
 
 .img-thumbnail {
@@ -11532,7 +11573,7 @@ h6, .h6 {
   line-height: 1.2; }
   @media (max-width: 991.98px) {
     .display-3 {
-      font-size: 2.25rem; } }
+      font-size: 2rem; } }
 
 .display-4 {
   line-height: 1.2; }
@@ -12461,7 +12502,7 @@ code {
   .w-lg-130 {
     width: 130% !important; }
   .mw-lg-130 {
-    max-width: 118% !important; }
+    max-width: 110% !important; }
   .vh-lg-130 {
     height: 130vh; }
   .vw-lg-130 {
