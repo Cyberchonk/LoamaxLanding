@@ -27,6 +27,7 @@
 
 #office-image{
   margin-top: 32px;
+  z-index: 99 !important;
 }
 
 body {
