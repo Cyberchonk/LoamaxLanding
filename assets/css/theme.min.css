@@ -30,6 +30,10 @@
   z-index: 99 !important;
 }
 
+#review-iamge{
+  display: none;
+}
+
 body {
   margin: 0;
   font-family: "Arial", Sans-serif;
