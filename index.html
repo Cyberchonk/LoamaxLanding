@@ -81,15 +81,14 @@
           </ul> -->
 
           <!-- Button -->
-          <!-- <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="./signup-form.html" target="_blank">
+          <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="popup1.html" target="_blank" style="margin-right: 38px;">
             注册
-          </a>  -->
+          </a> 
 
         </div>
 
       </div>
     </nav>
-
 
     <!-- WELCOME
     ================================================== -->
@@ -559,7 +558,15 @@
     <!-- Theme JS -->
     <script src="./assets/js/theme.min.js"></script>
 
-
+    <script>
+        function openForm() {
+          document.getElementById("crmWebToEntityForm").style.display = "block";
+        }
+        
+        function closeForm() {
+          document.getElementById("crmWebToEntityForm").style.display = "none";
+        }
+    </script>
 
   </body>
 </html>
