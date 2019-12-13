@@ -15,14 +15,29 @@
     color: black !important;
   }
 
+#leo-image{
+  display: none;
+}
+
 #Features-2{
   margin-top: -65px !important;
+}
+
+#form-title{
+  padding-top: 45px !important;
 }
 
 #footer-logo{
   align-self: right !important; 
   margin-top: 24px !important;
   margin-left: 27.5% !important;
+}
+
+#replacer-box{
+  display: block !important;
+  width: 100%; 
+  height: 616px !important; 
+  border-bottom: 1px solid #F1F4F8 !important;
 }
 
 #office-image{
@@ -12977,13 +12992,13 @@ body.compensate-for-scrollbar {
           justify-content: center;
   width: calc(1.6em + 1.625rem + 2px);
   height: calc(1.6em + 1.625rem + 2px);
-  background-color: #335EEA;
+  background-color: #ff8080;
   box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.05);
   color: #FFFFFF; }
   .flickity-button::before, .flickity-button::after {
     font-family: "Feather"; }
   .flickity-button:hover, .flickity-button:focus {
-    background-color: #66a3ff;
+    background-color: #ff8080;
     box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1); }
 
 .flickity-button.previous {
