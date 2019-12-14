@@ -2107,8 +2107,8 @@ fieldset:disabled a.btn {
   border-color: var(--red);
   box-shadow: none; }
   .btn-primary:hover {
-    color: #FFFFFF;
-    background-color:var(--red);
+    color: white;
+    background-color:#CD5C5C;
     border-color: var(--red); }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: none, 0 0 0 0 rgba(82, 118, 237, 0.5); }
