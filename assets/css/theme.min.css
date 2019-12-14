@@ -28,6 +28,20 @@
 
 }
 
+@media screen and (min-width:0px) and (max-width:328px){
+  #testimonial-header{
+    margin-top: 38px !important;
+  }
+  
+  }
+
+@media screen and (min-width:0px) and (max-width:768px){
+#footer-lion-logo{
+  margin-left: -10% !important;
+}
+
+}
+
  @media (max-width: 1000px) {
 .text-primary {
     color: black !important;
@@ -69,6 +83,10 @@
 
 #form-label-td{
   width: 7% !important;
+}
+
+#footer-lion-logo{
+  margin-left: -10% !important;
 }
 
 #form-container{
