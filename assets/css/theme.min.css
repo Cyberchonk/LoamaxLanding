@@ -42,7 +42,7 @@
 #footer-logo{
   align-self: right !important; 
   margin-top: 24px !important;
-  margin-left: 27.5% !important;
+  margin-left: 30% !important;
 }
 
 #form-section{
@@ -122,7 +122,23 @@ body {
   width: 66% !important;
 }
 
+#footer-links{
+  display: none !important;
 }
+
+}
+
+@media (max-width:1000px) and (min-width:768px) {
+  #footer-image {
+      left: 35% !important;
+  }
+  
+  #footer-logo{
+    
+    margin-top: 24px !important;
+    margin-left: 290px !important;
+  }
+}​
 
 :root {
   --blue: #007bff;
